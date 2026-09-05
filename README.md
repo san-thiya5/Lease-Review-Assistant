@@ -80,4 +80,4 @@ python -m tests.test_report
 
 ## Demo Video Link
 
-Demo Video: [Link Placeholder]
+Demo Video: https://youtu.be/3RLngQ-uslY
