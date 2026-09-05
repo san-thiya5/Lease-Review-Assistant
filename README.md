@@ -25,8 +25,7 @@ A deterministic clause intelligence and AI compliance review system built to aut
 pip install -r requirements.txt
 ```
 
-### 2. Configure Environment (Optional)
-Set your Gemini API key:
+### 2. Configure Environment (Required for full Gemini-grounded operation)
 Set your Gemini API key:
 
 # Windows PowerShell
