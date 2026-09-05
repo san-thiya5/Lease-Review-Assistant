@@ -27,14 +27,21 @@ pip install -r requirements.txt
 
 ### 2. Configure Environment (Optional)
 Set your Gemini API key:
-```bash
+Set your Gemini API key:
+
 # Windows PowerShell
 $env:GEMINI_API_KEY="your-gemini-api-key"
 
 # Linux / macOS
 export GEMINI_API_KEY="your-gemini-api-key"
-```
-*(Note: The system also includes high-accuracy deterministic fallback evaluation so you can run and test offline immediately.)*
+
+The system uses two Gemini capabilities:
+- Embeddings (`gemini-embedding-001`) for semantic clause-to-standard retrieval
+- Generation (`gemini-3.6-flash`, with `gemini-3.5-flash-lite` as an automatic fallback) for clause classification and the plain-language summary
+
+A deterministic rule-based evaluator is also built in as a resilience safety net — if a Gemini call fails mid-request (rate limit, transient network error, model deprecation), the system falls back to it automatically rather than crashing. This is a reliability feature, not a substitute for the Gemini path: full semantic grounding requires a valid `GEMINI_API_KEY`.
+
+Note: `data/standards_embeddings.npy` is precomputed and already committed to this repository. You do not need to run `scripts/precompute_embeddings.py` unless you modify `data/standards.json` and want to regenerate the embeddings.
 
 ### 3. Start the Unified Server
 ```bash
