@@ -1,0 +1,65 @@
+[
+  {
+    "row": 0,
+    "id": "deposit_range",
+    "type": "range",
+    "title": "Security Deposit Range",
+    "text": "Security Deposit Range: Security deposit must be between 1.0 and 2.0 months of the agreed base monthly rent.. Acceptable range: 1.0 to 2.0 months rent."
+  },
+  {
+    "row": 1,
+    "id": "notice_period_range",
+    "type": "range",
+    "title": "Notice Period Range",
+    "text": "Notice Period Range: Notice period for lease termination or non-renewal must be between 30 and 60 days.. Acceptable notice range: 30 to 60 days."
+  },
+  {
+    "row": 2,
+    "id": "maintenance_resp",
+    "type": "required_clause",
+    "title": "Maintenance Responsibility",
+    "text": "Maintenance Responsibility: Must clearly define maintenance duties: Landlord is responsible for structural integrity, roofs, exterior walls, and major mechanical, electrical, and plumbing systems. Tenant is responsible for routine cleanliness, minor interior maintenance, and reporting defects promptly."
+  },
+  {
+    "row": 3,
+    "id": "deposit_return_timeline",
+    "type": "required_clause",
+    "title": "Return of Deposit Timeline",
+    "text": "Return of Deposit Timeline: Must specify that the security deposit will be returned within 14 to 30 calendar days following full vacancy, accompanied by an itemized written statement of any lawful deductions."
+  },
+  {
+    "row": 4,
+    "id": "renewal_terms",
+    "type": "required_clause",
+    "title": "Renewal Terms",
+    "text": "Renewal Terms: Must specify clear renewal procedures, requiring at least 30 to 60 days advance written notice by either party prior to expiration, and prohibiting unnotified automatic multi-year renewal locks."
+  },
+  {
+    "row": 5,
+    "id": "subletting_policy",
+    "type": "required_clause",
+    "title": "Subletting Policy",
+    "text": "Subletting Policy: Must define the subletting and assignment rules, establishing that subleasing or assignment is permitted subject to obtaining the Landlord's prior written consent, which shall not be unreasonably withheld or delayed."
+  },
+  {
+    "row": 6,
+    "id": "waive_habitability",
+    "type": "forbidden_term",
+    "title": "Waiver of Statutory Habitability or Structural Repairs",
+    "text": "Forbidden - Waiver of Statutory Habitability or Structural Repairs: Any clause requiring the tenant to waive statutory warranties of habitability, or forcing the tenant to assume sole financial and physical responsibility for pre-existing structural defects, foundation, or main utility infrastructure repairs."
+  },
+  {
+    "row": 7,
+    "id": "excessive_late_penalties",
+    "type": "forbidden_term",
+    "title": "Excessive Late Rent Penalties",
+    "text": "Forbidden - Excessive Late Rent Penalties: Any penalty for delinquent rent exceeding 5% of the base monthly rent, or any provision imposing compounding daily penalty fees that exceed statutory or fair practice limits."
+  },
+  {
+    "row": 8,
+    "id": "unilateral_immediate_eviction",
+    "type": "forbidden_term",
+    "title": "Unilateral Immediate Eviction and Judicial Waiver",
+    "text": "Forbidden - Unilateral Immediate Eviction and Judicial Waiver: Any clause purporting to allow the landlord to lock out the tenant, remove tenant possessions, or terminate occupancy immediately without statutory advance written notice and formal judicial process."
+  }
+]

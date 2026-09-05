@@ -1,0 +1,57 @@
+{
+  "lease_clean.txt": {
+    "expected_is_clean": true,
+    "expected_deviations": [],
+    "expected_forbidden_terms": [],
+    "expected_missing_clauses": [],
+    "expected_summary": "Fully compliant lease agreement meeting all company standards with no deviations, no missing required clauses, and no forbidden terms."
+  },
+  "lease_deposit_deviation.txt": {
+    "expected_is_clean": false,
+    "expected_deviations": [
+      {
+        "clause_number": "4",
+        "standard_id": "deposit_range",
+        "issue": "Security deposit is 3.5 months ($8,750), which exceeds the acceptable maximum of 2.0 months."
+      }
+    ],
+    "expected_forbidden_terms": [],
+    "expected_missing_clauses": [],
+    "expected_summary": "Deposit deviation: 3.5 months deposit requested against standard limit of 2.0 months."
+  },
+  "lease_notice_deviation.txt": {
+    "expected_is_clean": false,
+    "expected_deviations": [
+      {
+        "clause_number": "9",
+        "standard_id": "notice_period_range",
+        "issue": "Notice period for termination is 15 days, which falls below the acceptable minimum of 30 days."
+      }
+    ],
+    "expected_forbidden_terms": [],
+    "expected_missing_clauses": [],
+    "expected_summary": "Notice deviation: 15 days termination notice provided against standard requirement of 30-60 days."
+  },
+  "lease_missing_clause.txt": {
+    "expected_is_clean": false,
+    "expected_deviations": [],
+    "expected_forbidden_terms": [],
+    "expected_missing_clauses": [
+      "deposit_return_timeline"
+    ],
+    "expected_summary": "Missing required clause: deposit_return_timeline is completely omitted from the lease."
+  },
+  "lease_forbidden_term.txt": {
+    "expected_is_clean": false,
+    "expected_deviations": [],
+    "expected_forbidden_terms": [
+      {
+        "clause_number": "6",
+        "forbidden_id": "waive_habitability",
+        "issue": "Clause 6 requires tenant to waive statutory warranties of habitability and assume structural and foundation repairs."
+      }
+    ],
+    "expected_missing_clauses": [],
+    "expected_summary": "Forbidden term: Clause 6 forces tenant to waive statutory habitability and assume structural repairs."
+  }
+}

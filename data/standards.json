@@ -1,0 +1,51 @@
+{
+  "deposit_range": {
+    "min_months": 1.0,
+    "max_months": 2.0,
+    "description": "Security deposit must be between 1.0 and 2.0 months of the agreed base monthly rent."
+  },
+  "notice_period_range": {
+    "min_days": 30,
+    "max_days": 60,
+    "description": "Notice period for lease termination or non-renewal must be between 30 and 60 days."
+  },
+  "required_clauses": [
+    {
+      "id": "maintenance_resp",
+      "title": "Maintenance Responsibility",
+      "description": "Must clearly define maintenance duties: Landlord is responsible for structural integrity, roofs, exterior walls, and major mechanical, electrical, and plumbing systems. Tenant is responsible for routine cleanliness, minor interior maintenance, and reporting defects promptly."
+    },
+    {
+      "id": "deposit_return_timeline",
+      "title": "Return of Deposit Timeline",
+      "description": "Must specify that the security deposit will be returned within 14 to 30 calendar days following full vacancy, accompanied by an itemized written statement of any lawful deductions."
+    },
+    {
+      "id": "renewal_terms",
+      "title": "Renewal Terms",
+      "description": "Must specify clear renewal procedures, requiring at least 30 to 60 days advance written notice by either party prior to expiration, and prohibiting unnotified automatic multi-year renewal locks."
+    },
+    {
+      "id": "subletting_policy",
+      "title": "Subletting Policy",
+      "description": "Must define the subletting and assignment rules, establishing that subleasing or assignment is permitted subject to obtaining the Landlord's prior written consent, which shall not be unreasonably withheld or delayed."
+    }
+  ],
+  "forbidden_terms": [
+    {
+      "id": "waive_habitability",
+      "title": "Waiver of Statutory Habitability or Structural Repairs",
+      "description": "Any clause requiring the tenant to waive statutory warranties of habitability, or forcing the tenant to assume sole financial and physical responsibility for pre-existing structural defects, foundation, or main utility infrastructure repairs."
+    },
+    {
+      "id": "excessive_late_penalties",
+      "title": "Excessive Late Rent Penalties",
+      "description": "Any penalty for delinquent rent exceeding 5% of the base monthly rent, or any provision imposing compounding daily penalty fees that exceed statutory or fair practice limits."
+    },
+    {
+      "id": "unilateral_immediate_eviction",
+      "title": "Unilateral Immediate Eviction and Judicial Waiver",
+      "description": "Any clause purporting to allow the landlord to lock out the tenant, remove tenant possessions, or terminate occupancy immediately without statutory advance written notice and formal judicial process."
+    }
+  ]
+}
